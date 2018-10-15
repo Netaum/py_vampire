@@ -106,3 +106,9 @@
 .matrix-transform{
     transform: matrix(0.25, 0, 0, 0.25, 0, 0)
 }
+
+.wing{
+    font-family: wingdings;
+    cursor: context-menu;
+    font-size: 200%;
+}
