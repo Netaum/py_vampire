@@ -134,3 +134,9 @@
     left:51px;
     bottom: 536px;
 }
+
+.wing{
+    font-family: wingdings;
+    cursor: context-menu;
+    font-size: 200%;
+}
