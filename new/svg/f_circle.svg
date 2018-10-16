@@ -26,15 +26,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="1869.5276"
-     inkscape:cy="1024.1687"
+     inkscape:cx="1222.3847"
+     inkscape:cy="1220.0787"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="837"
-     inkscape:window-x="-8"
-     inkscape:window-y="273"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -63,22 +63,10 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:655.57281494px;font-family:Wingdings;-inkscape-font-specification:Wingdings;stroke-width:0.32778639"
          id="path32" />
     </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:655.57281494px;line-height:1.25;font-family:Wingdings;-inkscape-font-specification:Wingdings;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.32778639"
-       x="510.05444"
-       y="255.18506"
-       id="text12-3"
-       transform="scale(0.97334599,1.0273839)"><tspan
-         sodipodi:role="line"
-         id="tspan10-9"
-         x="510.05444"
-         y="255.18506"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:655.57281494px;font-family:Wingdings;-inkscape-font-specification:Wingdings;stroke-width:0.32778639">m</tspan></text>
     <path
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.07986498;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 773.81327,1619.5602 C 656.57233,1613.4111 546.91944,1577.7456 450.1613,1514.2898 407.4587,1486.2847 379.20068,1463.4917 338.42928,1424.1665 196.65011,1287.4165 118.37476,1117.5293 110.02953,928.45226 103.36371,777.42541 128.04492,648.67438 186.43457,529.88084 256.21325,387.91631 375.85661,263.46432 507.39313,196.02251 c 140.91003,-72.24782 310.43149,-91.0888 474.99157,-52.79158 105.7835,24.61844 212.8915,83.80032 299.7932,165.64891 172.5705,162.53594 254.44,368.9522 241.5029,608.89725 -10.6586,197.68441 -82.7171,359.39761 -222.5607,499.46901 -41.2263,41.2934 -76.9751,70.5818 -121.2472,99.3359 -92.1664,59.8608 -205.07726,97.1415 -308.91677,101.9974 -17.28571,0.8083 -37.21429,1.8317 -44.28571,2.2742 -7.07143,0.4425 -30.85715,-0.1394 -52.85715,-1.2934 z"
-       id="path37"
+       style="fill:#000000;fill-opacity:1;stroke:#020000;stroke-width:0.70191228;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 724.95617,1615.6649 C 594.15394,1597.1523 478.99657,1545.7787 379.35407,1461.4862 261.57189,1361.8484 177.02774,1234.8589 138.12596,1099.1496 117.87211,1028.4938 112.05257,988.22178 110.08858,905.12727 106.5594,755.81073 129.13342,646.1927 188.05359,526.53407 224.34975,452.82167 265.48027,395.64765 329.14116,330.41349 439.87051,216.94765 560.94686,154.03164 712.67943,131.11198 c 53.357,-8.05973 146.65671,-8.75277 197.99103,-1.47069 155.14614,22.00842 285.45454,89.48038 398.57144,206.375 61.9476,64.01645 103.9466,122.98466 140.1753,196.81161 57.717,117.61568 83.3656,253.00434 74.1539,391.42857 -11.7208,176.12793 -69.5175,319.55483 -180.7607,448.57143 -114.8934,133.25 -250.4415,211.9838 -413.56851,240.2233 -37.96955,6.573 -164.84149,8.1963 -204.28572,2.6137 z"
+       id="path817"
        inkscape:connector-curvature="0"
        transform="matrix(0.26458333,0,0,0.26458333,0,-203)" />
   </g>

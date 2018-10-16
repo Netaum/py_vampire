@@ -39,6 +39,11 @@
     src: url(../font/f1.woff)format("woff");
 }
 
+@font-face{
+    font-family: wod;
+    src:url(../font/wod1.woff)format("woff");
+}
+
 .font-header{
     font-size: 43.993360px;
     color:black;
@@ -136,7 +141,7 @@
 }
 
 .wing{
-    font-family: wingdings;
+    font-family: wod;
     cursor: context-menu;
     font-size: 200%;
 }
