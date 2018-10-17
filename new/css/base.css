@@ -39,6 +39,28 @@
     src: url(../font/f1.woff)format("woff");
 }
 
+@font-face {
+    font-family: ff2;
+    src: url(../font/f2.woff)format("woff");
+}
+
+.font-text {
+    font-family: ff2;
+    line-height: 1.126465;
+    font-style: normal;
+    font-weight: normal;
+    visibility: visible;
+    font-size: 47.993120px;
+    color: black;
+    word-spacing: 0.000000px;
+    position: absolute;
+    white-space: pre;
+    transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -webkit-transform-origin: 0 100%;
+    unicode-bidi: bidi-override;
+}
+
 @font-face{
     font-family: wod;
     src:url(../font/wod1.woff)format("woff");
@@ -60,11 +82,15 @@
     -webkit-transform-origin: 0 100%;
     unicode-bidi: bidi-override;
     letter-spacing: 0.399976px;
-
 }
 
 .font-abilities{
     font-size: 67.995920px;
+}
+
+.font-abilities-names{
+    font-size: 51.995629px;
+    letter-spacing: 0.000000px;
 }
 
 .font-header:after {
@@ -94,6 +120,24 @@
 .pos-column5 {
     left: 254.569600px;
 }
+.pos-column7 {
+    left: 57.717800px;
+}
+.pos-column8 {
+    left: 240.717473px;
+}
+.pos-column9 {
+    left: 424.717413px;
+}
+.pos-column36 {
+    left: 97.733000px;
+}
+.pos-column37 {
+    left: 290.733000px;
+}
+.pos-column38 {
+    left: 467.733000px;
+}
 
 /* H */
 .pos-middle1{
@@ -103,8 +147,15 @@
     height: 83.947358pt;
 }
 .pos-middle3 {
-    height: 62.964222px
+    height: 62.964222px;
 }
+.pos-middle4 {
+    height: 48.147952px;
+}
+.pos-middle5 {
+    height: 42.650136px;
+}
+
 
 /* Y */
 
@@ -119,6 +170,18 @@
 }
 .pos-line5 {
     bottom: 632.207100px;
+}
+.pos-line6 {
+    bottom: 618.208100px;
+}
+.pos-line7 {
+    bottom: 602.161800px;
+}
+.pos-line8 {
+    bottom: 589.162580px;
+}
+.pos-line9 {
+    bottom: 576.163360px;
 }
 
 
@@ -138,6 +201,7 @@
 .line1{
     left:51px;
     bottom: 536px;
+    position: absolute;
 }
 
 .wing{
