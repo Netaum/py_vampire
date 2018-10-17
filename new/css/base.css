@@ -12,7 +12,7 @@
     position: absolute;
     z-index: 3;
     left: 38px;
-    bottom: 533px;
+    bottom: 633px;
     width: 13px;
 }
 
@@ -59,11 +59,32 @@
     -ms-transform-origin: 0 100%;
     -webkit-transform-origin: 0 100%;
     unicode-bidi: bidi-override;
+    z-index: 2;
+    background-color: white;
 }
 
 @font-face{
     font-family: wod;
     src:url(../font/wod1.woff)format("woff");
+}
+
+.wod{
+    font-family: wod;
+    cursor: context-menu;
+    font-style: normal;
+    font-weight: normal;
+    visibility: visible;
+    font-size: 45px;
+    color: black;
+    word-spacing: 0.000000px;
+    position: absolute;
+    white-space: pre;
+    transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -webkit-transform-origin: 0 100%;
+    unicode-bidi: bidi-override;
+    z-index: 2;
+    background-color: white;
 }
 
 .font-header{
@@ -82,6 +103,8 @@
     -webkit-transform-origin: 0 100%;
     unicode-bidi: bidi-override;
     letter-spacing: 0.399976px;
+    z-index: 2;
+    background-color: white;
 }
 
 .font-abilities{
@@ -129,6 +152,17 @@
 .pos-column9 {
     left: 424.717413px;
 }
+
+.pos-column7-f {
+    left: 140.278500px;
+}
+.pos-column8-f {
+    left: 323.278500px;
+}
+.pos-column9-f {
+    left: 507.278500px;
+}
+
 .pos-column36 {
     left: 97.733000px;
 }
@@ -200,8 +234,9 @@
 
 .line1{
     left:51px;
-    bottom: 536px;
+    bottom: 636px;
     position: absolute;
+    z-index: 1;
 }
 
 .wing{
