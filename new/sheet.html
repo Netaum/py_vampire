@@ -8,11 +8,32 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <link rel="stylesheet" href="css/base.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="js/sheet.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <title></title>
     </head>
 
     <body>
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 id="modal-header" class="font-header font-abilities-names wod-modal">Modal Header</h4>
+                </div>
+                <div class="modal-body">
+                    <textarea rows="4" id="text-area" class="boxsizingBorder"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
         <div id="page-container">
             <div class="page_shadow page_size_complete">
                 <div id="content-sheet">
@@ -149,13 +170,14 @@
                     <div class="pos-column12 pos-middle4 pos-line20 matrix-transform font-header font-abilities-names">Touchstones & Convictions</div>
                     <div class="pos-column13 pos-middle4 pos-line20 matrix-transform font-header font-abilities-names">Clan Bane</div>
                     
-                    <div class="pos-column1 pos-middle6 pos-line21 matrix-transform font-text font-line">____________________________</div>
-                    <div class="pos-column1 pos-middle6 pos-line22 matrix-transform font-text font-line">____________________________</div>
-                    <div class="pos-column1 pos-middle6 pos-line23 matrix-transform font-text font-line">____________________________</div>
-                    <div class="pos-column1 pos-middle6 pos-line24 matrix-transform font-text font-line">____________________________</div>
-                    <div class="pos-column1 pos-middle6 pos-line25 matrix-transform font-text font-line">____________________________</div>
-                    <div class="pos-column1 pos-middle6 pos-line26 matrix-transform font-text font-line">____________________________</div>
-                    
+                    <div id="chronicle-tenets" modal-label="Chronicle Tenets" class="wod-modal" >
+                        <div class="pos-column1 pos-middle6 pos-line21 matrix-transform font-text font-line">____________________________</div>
+                        <div class="pos-column1 pos-middle6 pos-line22 matrix-transform font-text font-line">____________________________</div>
+                        <div class="pos-column1 pos-middle6 pos-line23 matrix-transform font-text font-line">____________________________</div>
+                        <div class="pos-column1 pos-middle6 pos-line24 matrix-transform font-text font-line">____________________________</div>
+                        <div class="pos-column1 pos-middle6 pos-line25 matrix-transform font-text font-line">____________________________</div>
+                        <div class="pos-column1 pos-middle6 pos-line26 matrix-transform font-text font-line">____________________________</div>
+                    </div>
                     <div class="pos-column2 pos-middle6 pos-line21 matrix-transform font-text font-line">____________________________</div>
                     <div class="pos-column2 pos-middle6 pos-line22 matrix-transform font-text font-line">____________________________</div>
                     <div class="pos-column2 pos-middle6 pos-line23 matrix-transform font-text font-line">____________________________</div>

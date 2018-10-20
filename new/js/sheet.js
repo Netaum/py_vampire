@@ -1,5 +1,12 @@
 $(function(){
 
+    $(".wod-modal").click(function(){
+        var title = $(this).attr("modal-label");
+        $("#modal-header").text(title);
+        $("#myModal").modal();
+    });
+    
+
     $(".wod").click(function(){
         var getSelection = window.getSelection();
         var selection = getSelection.focusOffset;
