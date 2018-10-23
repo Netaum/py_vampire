@@ -314,6 +314,19 @@
     width: 100%;
 }
 
+.chronicle-textarea{
+    background: transparent;
+    color:black;
+    resize: none;
+    outline: none;
+    position: absolute;
+    z-index: 3;
+    bottom: 343.5px;
+    font-size: 8px;
+    line-height-step: 2px;
+    
+}
+
 
 
 
